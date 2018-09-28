@@ -118,6 +118,7 @@ The default settings are use in GET requests to the REST API. If you want to ove
 ----
 
 ##API
+
 ### Generate
 
 *   **URL**:
