@@ -139,8 +139,7 @@ def not_found(error):
     error_message = {
         'error': 'Not found.',
         'info': 'Try: http//:<host>:<port>/hostgen/api/v1.0/generate',
-        'url': 'https://github.com/Spreadcat/hostgen',
-        'contact': 'daniel@micronerds.org'
+        'url': 'https://github.com/Spreadcat/hostgen'
     }
     return make_response(jsonify(error_message), 404)
 
